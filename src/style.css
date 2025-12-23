@@ -160,8 +160,17 @@ button:focus {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 2.4rem !important; /* match section title size */
+  width: auto !important;
+  max-height: 3rem !important;
+  display: block !important;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    height: 1.6rem !important;
+    max-height: 2rem !important;
+  }
 }
 
 .navbar-nav .nav-link {
