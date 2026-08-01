@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Sri_Ram_Varma_AssociateSoftwareEngineer.pdf";
+import pdf from "../../Assets/../Assets/Sri_Ram_Varma_JuniorDeveloper.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -32,7 +32,7 @@ function ResumeNew() {
             href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
-            download="Sri_Ram_Varma_AssociateSoftwareEngineer.pdf"
+            download="Sri_Ram_Varma_JuniorDeveloper.pdf"
           >
             <AiOutlineDownload />
             &nbsp;Download CV
@@ -90,7 +90,7 @@ function ResumeNew() {
             href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
-            download="Sri_Ram_Varma_AssociateSoftwareEngineer.pdf"
+            download="Sri_Ram_Varma_JuniorDeveloper.pdf"
           >
             <AiOutlineDownload />
             &nbsp;Download CV
